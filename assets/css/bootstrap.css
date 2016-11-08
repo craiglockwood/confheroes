@@ -3133,6 +3133,7 @@ input[type="button"].btn-block {
   position: relative;
   display: inline-block;
   vertical-align: middle;
+  margin-bottom: 20px;
 }
 .btn-group > .btn,
 .btn-group-vertical > .btn {
