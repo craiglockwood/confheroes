@@ -283,25 +283,40 @@ a:focus {
 {
 	color:#fff;
 	margin:0;
-	padding:40px 5px 0;
+	padding:20px 5px 0;
 	font-size:16px;
 	text-transform:uppercase;
 }
 .tpl6 .dmbutton
 {
 	display:inline-block;
-	margin:30px 5px 20px 5px;
+	margin: 30px 5px 20px 5px;
 	font-size:13px;
 }
 
 .tpl6 .bg
 {
-	height:100%;
-	width:100%;
-	background-color:#00b3fe;
-	background-color:rgba(0,179,254,.9);
-	text-align:center;
+	height: 100%;
+	width: 100%;
+	background-color: #127ab1;
+	background-color: rgba(54, 121, 193, 0.8);
+	text-align: center;
 }
+
+
+@media (max-width: 768px) {
+  .btn-responsive {
+    padding:4px 9px;
+    font-size:90%;
+    line-height: 1;
+    border-radius:3px;
+  }
+}
+
+
+
+
+
 
 /* Testimonials Wrap */
 #twrap {
