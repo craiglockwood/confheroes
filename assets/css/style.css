@@ -304,10 +304,10 @@ a:focus {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 620px) {
   .btn-responsive {
     padding:4px 9px;
-    font-size:90%;
+    font-size:70%;
     line-height: 1;
     border-radius:3px;
   }
