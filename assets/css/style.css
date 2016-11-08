@@ -58,6 +58,7 @@ img {
     left: 50%;
     margin-left: -80px !important;  /* 50% of your logo width */
     display: block;
+    z-index:10;
 }
 
 a { 
@@ -249,7 +250,7 @@ a:focus {
 
 /* Portfolio Wrap */
 #portfoliowrap {
-	padding-top: 60px;
+
 	margin-bottom: 60px;
 	display: block;
 	text-align: center
