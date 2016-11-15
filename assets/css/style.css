@@ -50,6 +50,10 @@ p {
 	margin-top: 10px; 
 }
 
+.top10 {
+	padding-top: 2em;
+}
+
 img {
 	height: auto;
 	max-width: 100%;
@@ -64,6 +68,13 @@ img {
     display: block;
     z-index:10;
 }
+
+.navbar-collapse {
+
+  border-top: 0px ; 
+  box-shadow: inset 0 0px 0 rgba(255, 255, 255, .1); 
+}
+
 
 a { 
 	padding: 0;
@@ -330,7 +341,7 @@ a:focus {
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 450px;
+	min-height: 400px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -352,8 +363,8 @@ a:focus {
 
 #twrap p {
 	color: white;
-	font-size: 15px;
-	line-height: 30px;
+	font-size: 20px;
+	line-height: 35px;
 }
 
 /* clients logo */
