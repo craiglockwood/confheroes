@@ -43,6 +43,10 @@ h1, h2, h3, h4, h5, h6 {
 	margin :0px;
 }
 
+.left {
+	text-align: left;
+}
+
 p { 
 	padding: 0; 
 	margin-bottom: 12px; 
@@ -55,7 +59,11 @@ p {
 }
 
 .top10 {
-	padding-top: 2em;
+	padding-top: 3em;
+}
+
+.bottom10 {
+	padding-bottom: 3em;
 }
 
 img {
@@ -366,6 +374,41 @@ a:focus {
 }
 
 #twrap p {
+	color: white;
+	font-size: 20px;
+	line-height: 35px;
+}
+
+/* Testimonials Wrap */
+#swrap {
+	background-color: #F8F9F9;
+	margin-top: 2em;
+	padding-top:25px;
+	padding-bottom:25px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#swrap i {
+	font-size: 50px;
+	color: white;
+	margin-bottom: 25px;
+}
+
+#swrap p {
 	color: white;
 	font-size: 20px;
 	line-height: 35px;
