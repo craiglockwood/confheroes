@@ -386,24 +386,19 @@ a:focus {
 /* Testimonials Wrap */
 #swrap {
 	background-color: #F8F9F9;
+	 background-image: url("../img/back_pattern.png");
+	 background-repeat:repeat;
 	margin-top: 2em;
 	padding-top:25px;
 	padding-bottom:25px;
 	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
+
 	
 	width: 100%;
 	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+
+ 
 }
 
 #swrap i {
