@@ -39,6 +39,13 @@ h1, h2, h3, h4, h5, h6 {
 	padding:0px;
 }
 
+.each-item
+{
+    position:relative;
+    overflow:hidden;
+    left:0px;
+}
+
 .nomarg {
 	margin :0px;
 }
@@ -308,7 +315,9 @@ a:focus {
 .portfolio-item .title:before {border-radius:0; display:none}
 .portfolio-item p {margin:0px 0 30px;}
 .portfolio-item h3 {margin:-10px 0 10px; font-size:16px; text-transform:uppercase;}
-
+.portfolio-item {
+  float: left;
+}
 
 .tpl6 h3
 {
