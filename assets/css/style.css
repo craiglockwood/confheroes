@@ -175,7 +175,8 @@ a:focus {
 .dropdown-menu > li > a {
 	color: white;
 	font-weight: 700;
-	font-size: 12px;
+	font-size: 15px;
+	text-align: left;
 }
 
 .btn-theme {

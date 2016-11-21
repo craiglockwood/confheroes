@@ -54,8 +54,8 @@
         <li><a href="contact.html">Make a booking</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="#about">Tips for organisers</a></li>
-      <li><a href="#contact">Tips for speakers</a></li>
+      <li><a href="organisers.html">Tips for organisers</a></li>
+      <li><a href="speakers.html">Tips for speakers</a></li>
     </ul>
   </div>
 
@@ -71,14 +71,27 @@
 	<!-- *****************************************************************************************************************
 	 PORTFOLIO SECTION
 	 ***************************************************************************************************************** -->
-	 <div id="videowrap">
+<div id="videowrap">
      
 
   <div class="btn-group" role="group" aria-label="...">
    <button type="button" class="btn btn-default btn-lg btn-responsive filter-button" data-filter="all">All</button>
   <button type="button" class="btn btn-default btn-lg btn-responsive filter-button" data-filter="design">Design</button>
   <button type="button" class="btn btn-default btn-lg btn-responsive filter-button" data-filter="development">Development</button>
-<button type="button" class="btn btn-default btn-lg btn-responsive filter-button" data-filter="inspiration">Inspiration</button>
+  <button type="button" class="btn btn-default btn-lg btn-responsive filter-button" data-filter="inspiration">Inspiration</button>
+
+
+<div class="btn-group filters-button-group" role="group" >
+    <button type="button" class="btn btn-default btn-lg btn-responsive dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+     Conference
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      <li class="filter-button" data-filter="btconf"><a href="#">Beyond Tellerrand</a></li>
+      <li class="filter-button" data-filter="brightonruby"><a href="#">Brighton Ruby</a></li>
+    </ul>
+  </div>
+
 
   <div class="btn-group" role="group">
     <button type="button" class="btn btn-default btn-lg btn-responsive dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -86,21 +99,11 @@
       <span class="caret"></span>
     </button>
     <ul class="dropdown-menu">
-      <li><a href="#">Craig</a></li>
-      <li><a href="#">Amie</a></li>
+      <li class="filter-button" data-filter="craig"><a href="#">Craig</a></li>
+      <li class="filter-button" data-filter="amie"><a href="#">Amie</a></li>
     </ul>
   </div>
 
-   <div class="btn-group filters-button-group" role="group" >
-    <button type="button" class="btn btn-default btn-lg btn-responsive dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-     Conference
-      <span class="caret"></span>
-    </button>
-    <ul class="dropdown-menu">
-      <li><a href="#">Beyond Tellerrand</a></li>
-      <li><a href="#">Brighton Ruby</a></li>
-    </ul>
-  </div>
 </div>
 
 
@@ -110,7 +113,7 @@
             <div class="recentitems portfolio">
 				
 
-                <div class="portfolio-item design filter design all" >
+                <div class="portfolio-item design filter design all amie" >
                 
 					   <div class="he-wrap tpl6 each-item">
 					   <img src="assets/img/covers/2.png"  alt="" >
@@ -130,7 +133,7 @@
 
 
                             
-                <div class="portfolio-item development filter development all">
+                <div class="portfolio-item development filter development all craig btconf">
                     <div class="he-wrap tpl6 each-item">
 					 <img src="assets/img/covers/1.png"  alt="" >
 						<div class="he-view">
@@ -157,7 +160,7 @@
 					</div><!-- he wrap -->
 				</div><!-- end col-12 -->
         
-                <div class="portfolio-item filter design inspiration all">
+                <div class="portfolio-item filter design inspiration all brightonruby">
                     <div class="he-wrap tpl6 each-item">
 					 <img src="assets/img/covers/4.png"  alt="" >
 						<div class="he-view">
