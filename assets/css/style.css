@@ -35,6 +35,12 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
 }
 
+
+.mtb {
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
 .nopad {
 	padding:0px;
 }
@@ -49,6 +55,21 @@ h1, h2, h3, h4, h5, h6 {
     position:relative;
     overflow:hidden;
     left:0px;
+}
+
+.left {
+	text-align: left;
+}
+
+.resources {
+	font-size: 18px;
+	text-align: left;
+	padding: 0 2em;
+
+}
+
+.resource-item {
+	padding-bottom: 1em;
 }
 
 .nomarg {
@@ -233,10 +254,7 @@ a:focus {
 	font-weight: normal !important;
 }
 
-.mtb {
-	margin-top: 80px;
-	margin-bottom: 80px;
-}
+
 
 .mb {
 	margin-bottom: 60px;
