@@ -3,7 +3,7 @@ Website for www.confheroes.com
 
 ## To submit a resource
 
-If you have a resource that you think would help others conference organisers or speakers, please submit a PR (Pull Request) as follows:
+If you have a resource that you think would help other speakers or conference organiser, please submit a PR (Pull Request) as follows:
 
 1. Clone this repository.
 2. Edit the 'speakers.html' or 'oraginsers.html' file. The section to edit s clearly marked in the source.
