@@ -23,6 +23,19 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+
+<script type='text/javascript'>
+$(function () {
+    var parent = $("#shuffle");
+    var divs = parent.children();
+    while (divs.length) {
+        parent.append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
+    }
+});
+</script>
+
+
   </head>
 
 <body>
@@ -63,6 +76,10 @@
      ***************************************************************************************************************** -->
 <div class="row video-collage nomarg">
 
+
+
+<div id="shuffle">
+
     <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 nopad">
         <div class="portfolio-item graphic-design">
             <div class="tpl6">
@@ -70,6 +87,7 @@
             </div>
          </div>
     </div>
+
 
 
     <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 nopad">
@@ -81,6 +99,7 @@
     </div>
 
 
+
     <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 nopad">
         <div class="portfolio-item graphic-design">
             <div class="tpl6">
@@ -88,6 +107,7 @@
             </div>
         </div>
     </div>
+
 
     <div class="col-lg-2 col-md-4 col-sm-6 col-xs-6 nopad">
         <div class="portfolio-item graphic-design">
@@ -161,6 +181,10 @@
             </div>
         </div>
     </div>
+
+
+
+</div>
 
 </div><!--end row -->
 
