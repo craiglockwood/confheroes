@@ -125,7 +125,7 @@ img {
     padding: 0px;
     position: absolute;
     left: 50%;
-    margin-left: -80px !important;  /* 50% of your logo width */
+    margin-left: -70px !important;  /* 50% of your logo width */
     display: block;
     z-index:10;
 }
